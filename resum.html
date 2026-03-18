@@ -1,0 +1,383 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body{
+            display: flex;
+             /* margin: 0px; */
+            font-family: Arial;
+            background-color: rgb(8, 8, 8);
+        }
+hr{
+    border-radius: 8px solid white;
+}
+.sidebar{
+width:250px;
+height:100vh;
+background:#f4b400;
+position:fixed;
+text-align:center;
+padding-top:30px;
+}
+
+.sidebar img{
+width:200px;
+height: 200px;
+/* border-radius:30px; */
+}
+.sidebar a{
+display:block;
+padding:15px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.sidebar a:hover{
+background:white;
+}
+
+.content{
+margin-left:150px;
+padding:20px;
+/* color: #020101;
+background: black; */
+/* margin-top: 1px; */
+
+}
+
+section{
+min-height:400px;
+padding-top:50px;
+}
+.content{
+    /* flex:1; */
+    padding:20px;
+    /* margin-bottom:50%; */
+    text-align: center;
+    /* background-color: #ddd; */
+}
+.content h1{
+    font-size:60px;
+    /* margin-bottom:40px; */
+    /* border: 2px dotted; */
+    color: #ddd;
+}
+.content h4{
+    color: #ddd;
+}
+
+.boxes{
+    display:flex;
+    /* line-gap-override:5px; */
+    /* margin-left: 80px; */
+    
+}
+.box{
+    background:#f4a900;
+    color:black;
+    padding:20px;
+    text-align:center;
+    border-radius: 2px solid;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    /* justify-content: space-between; */
+    /* margin-left: 0px; */
+}
+ .services{
+    display: flex;
+    padding-left: 150px;
+margin-left: 10px;
+font-size:18px;
+color: aliceblue;
+ }
+  .resume{
+    min-height:100px;
+    background:#111;
+    color:white;
+    padding:60px;
+    padding-left: 0px;
+    
+}
+.resume-main{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-left:15px;
+}
+.resume-box{
+    background:#333;
+    padding:15px;
+    height: 150px;
+    width:150px;
+    margin:15px;
+    border-left:5px solid #f4b400;
+}
+.portfolio-page{
+background: #ddd;
+padding: 30px;
+}
+h5{
+    color: #ddd;
+}
+.PORTFOLIO-main{
+display: flex;
+gap: 5px;
+flex-wrap: wrap;
+ padding-top: 30px;
+/* object-fit: cover; */
+}
+ nav {
+            background: rgb(194, 128, 128);
+            padding: 10px;
+            padding-top: 10px;
+            text-align: center;
+        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* SECTION */
+.contact{
+    min-height:100vh;
+    background:#000;
+    color:#fff;
+    padding:60px;
+}
+
+/* TITLE */
+.contact h1{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:35px;
+}
+
+/* CONTAINER */
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+}
+
+/* LEFT SIDE */
+.contact-info{
+    flex:1;
+}
+
+.contact-info h2{
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+.contact-info i{
+    color:#f4b400;
+    margin-right:10px;
+}
+
+/* RIGHT SIDE */
+.contact-form{
+    flex:1;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+}
+
+.contact-form textarea{
+    height:120px;
+}
+
+/* BUTTON */
+.contact-form button{
+    background:#f4b400;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.contact-form button:hover{
+    background:#fff;
+}
+    </style>
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<img src="web2.webp">
+<h2>Atiqa Maqbool</h2>
+<a href="#about">About Me</a>
+<a href="#resume">Resume</a> 
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</div>
+<section>
+<div class="content">
+<section id="Aboute me" class="About me">
+
+<div class="content">
+<h1 class="title">ABOUT ME</h1>
+<h4>I am a passionate Web Developer currently learning modern web technologies. I enjoy building clean, responsive, and user-friendly websites</h4>
+<section>
+<div class="boxes">
+    <div class="line1">
+<div class="box">
+<h2>15+</h2>
+<p><b>Years Experience</b></p></div>
+<div class="box">
+<h2>350+</h2>
+<p><b>Projects Done</b></p>
+</div></div>
+<div class="line2">
+<div class="box">
+<h2>200+</h2>
+<p><b>Happy Clients</b></p></div>
+<div class="box">
+<h2>45K</h2>
+<p><b>Followers</b></p>
+</div></div>
+
+<div class="services">
+    <div class="service-box">
+<h2>What I Do?</h2>
+<i class="fa-brands fa-google-scholar"></i>
+<h3>Web Developer</h3>
+<p>I am a dedicated web development student with a strong interest in creating responsive and modern websites. I am continuously improving my skills in HTML, CSS, JavaScript, and modern web tools.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+</section>
+<hr>
+<!-- -------resume------ -->
+<section id="resume" class="resume">
+<h1 style="font-size:50px; padding-left: 20px; text-align: center;">RESUME</h1>
+   <div class="resume-main">
+                <div class="resume-box">
+                    <h3 style="color:#f4b400; margin-bottom:10px;">Artificial Intelligence</h3>
+                    <p style=" margin:0; font-size:15px;">"Artificial Intelligence is a technology that enables machines to learn, think, and make decisions." 🤖✨</p>
+                </div>
+
+            <div class="resume-box">
+              <h3 style="color:#f4b400; margin-bottom:10px;">Machine learning</h3>
+             <p style=" margin:0; font-size:15px;">"Machine Learning is a branch of Artificial Intelligence that allows computers to learn from data and improve their performance" 📊🤖.</p>
+            </div>
+
+            <div class="resume-box">
+                <h3 style="color:#f4b400; margin-bottom:10px;">Graphic Designer</h3>
+                <p style=" margin:0; font-size:15px;">"Graphic Design is the art of creating visual content.It combines creativity, colors, and images to produce attractive and meaningful designs." 🎨✨</p>
+                </div>
+
+             <div class="resume-box">
+                 <h3 style="color:#f4b400; margin-bottom:10px;">Software Engineering</h3>
+                 <p style=" margin:0; font-size:15px;">I create modern, responsive websites and love improving my coding skills.</p>
+                </div>
+
+            <div class="resume-box">
+                 <h3 style="color:#f4b400; margin-bottom:10px;">Web Developer</h3>
+                <p style=" margin:0; font-size:15px;">Creative web developer with a degree in Web Development and experience in building interactive web applications. </p>
+                </div>
+
+            <div class="resume-box">
+                <h3 style="color:#f4b400; margin-bottom:10px;">Project Developer</h3>
+                <p style=" margin:0; font-size:15px;">Worked on multiple academic and personal projects to improve coding skills.</p>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <!-- -------portfolio------ -->
+         <div class="portfolio">
+            <!-- -------portfolio page------ -->
+<section id="portfolio" class="portfolio">
+    <h1>Portfolio</h1>
+    <h5>Skills, projects and achievements.</h5>
+    <nav>
+    <a href="#ALL">ALL</a>
+    <a href="#GRAPHIC DESIGN">GRAPHIC DESIGN</a>
+    <a href="#WEB DESIGN">WEB DESIGN</a>
+ </nav>
+ <div class="PORTFOLIO-main">
+    <div class="img-box">
+   <img style="width: 200px; height: 150px;" src="latafa 7.webp" alt="error">
+   <div class="img-box">
+   <img style="width: 200px; height: 150px;" src="latafa10.webp" alt="error">
+    </div></div>
+    <div class="img-box">
+    <img style="width: 200px; height: 150px;" src="latafa13.webp" alt="error">
+    <div class="img-box">
+    <img style="width: 200px; height: 150px;" src="latafa3.webp" alt="error">
+</div></div>
+             </div>
+</div>
+</section>
+<hr>
+<!-- CSS FILE LINK -->
+<link rel="stylesheet" href="contact.css">
+
+<!-- Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<section class="contact">
+
+    <h1>CONTACT ME</h1>
+
+    <div class="contact-container">
+
+        <!-- LEFT INFO -->
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+
+            <p><i class="fa fa-envelope"></i> example@gmail.com</p>
+            <p><i class="fa fa-phone"></i> 0300-0000000</p>
+            <p><i class="fa fa-map-marker-alt"></i> Pakistan</p>
+
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>
